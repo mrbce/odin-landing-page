@@ -1,11 +1,8 @@
-#header {
+.navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 100px;
-    align-items: center;
+    background-color: greenyellow;
 }
 
-#header.logo {
-    justify-content: flex-start;
+.navbar ul {
+    display: inline-block;
 }
