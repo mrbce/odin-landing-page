@@ -1,8 +1,30 @@
 .navbar {
-    display: flex;
-    background-color: greenyellow;
+    margin: 0;
+    overflow: hidden;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: red;
 }
 
 .navbar ul {
-    display: inline-block;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
 }
+
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+}
+
+.navbar ul li:first-child {
+    margin-right: auto;
+  }
