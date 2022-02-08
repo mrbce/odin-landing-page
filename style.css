@@ -1,5 +1,11 @@
 #header {
+    display: flex;
     flex-direction: row;
-    display: inline;
-    background-color: greenyellow;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+#header.logo {
+    justify-content: flex-start;
 }
