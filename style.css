@@ -19,7 +19,7 @@ nav {
 }
 
 .right-nav {
-    margin: 0px 200px;
+    margin: 0px 150px;
 }
 
 .links {
@@ -142,11 +142,46 @@ footer {
 .hero-header {
     font-family: Roboto;
     font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-para {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb;
+}
+
+#logo {
+    font-family: Roboto;
+    font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
+}
+
+#navlinks {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb;
 }
 
 h2, h3 {
     padding:0px; 
     margin:0px; 
 } 
+
+.info-text {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+footer p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    color: #e5e7eb;
+}
