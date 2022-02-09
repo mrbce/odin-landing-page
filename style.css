@@ -63,9 +63,57 @@ nav {
     padding: 25px;
     width: 150px;
     text-align: center;
-    margin: 0px 50px;
+    margin: 0px 25px;
+}
+
+.squares img {
+    border-radius: 10%;
 }
 
 .information-header {
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: burlywood;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.quote {
+    padding: 25px 350px 25px 350px;
+}
+
+.author {
+    padding-left: 350px;
+}
+
+.cta-container {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: red;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color: green;
+    margin: auto;
+    padding: 5px 25px;
+}
+
+.cta-left {
+    margin-right: 25px;
+}
+
+.cta-right {
+    margin-left: 25px;
 }
